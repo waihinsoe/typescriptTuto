@@ -7,10 +7,12 @@ interface user {
   age: number;
   email: string;
 }
-
-interface Props {
+interface NewInter {
   num1: number;
   num2?: number;
+  name?: string;
+}
+interface Props extends NewInter {
   users: user[];
   fetchData: (url: string) => void;
 }
