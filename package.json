@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "name": "typescripttuto",
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waihinsoe/typescriptTuto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waihinsoe/typescriptTuto/issues"
+  },
+  "homepage": "https://github.com/waihinsoe/typescriptTuto#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
